@@ -1,8 +1,15 @@
 # md_preview
 
-> Markdown Previewer
+> Markdown Previewer for Free Code Camp's Front End Libraries Projects. 
+
+## To-Do's as of 4/23/2019
+- Styling (mobile and desktop)
+- Figuring out hot to get line breaks to work for default entry
+- adding FCC test cdn
+
 
 ## Build Setup
+
 
 ``` bash
 # install dependencies

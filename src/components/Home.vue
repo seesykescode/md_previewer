@@ -14,18 +14,20 @@ export default {
   name: 'Home',
   data () {
     return {
-      input: '# hello fellow children  ## welcome to hell.'
+      input: 'hello'
     }
   },
   computed: {
     markDown: function () {
       marked.setOptions({
       renderer: new marked.Renderer(),
-      grm: true,
+      gfm: true,
+      tables: true,
       breaks: true,
+      pedantic: false,
       sanitize: true,
-      smartypants: true,
-      tables: true
+      smartLists: true,
+      smartypants: false
   })
   return marked(this.input)
     }
