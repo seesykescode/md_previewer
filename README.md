@@ -3,8 +3,8 @@
 > Markdown Previewer for Free Code Camp's Front End Libraries Projects. 
 
 ## To-Do's as of 4/23/2019
-- Styling (mobile and desktop)
-- Figuring out hot to get line breaks to work for default entry
+- Styling (mobile and desktop)  
+~~Figuring out hot to get line breaks to work for default entry~~ Done 4/28
 - adding FCC test cdn
 
 
